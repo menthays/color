@@ -1,0 +1,37 @@
+---
+name: Quick Start
+route: /
+---
+
+import { Playground } from 'docz';
+import Color from '../src';
+
+# Color
+
+```js
+import Color from '@menthays/color';
+```
+
+```jsx
+const Example = () => {
+  return (
+    <div style={{width: 135}}>
+      <Color color="#FF0000" />
+      <Color color="#00FF00" />
+      <Color color="#0000FF" />
+    </div>
+  )
+}
+```
+
+<Playground>
+  {() => {
+    return (
+      <div style={{width: 135}}>
+        <Color color="#FF0000" />
+        <Color color="#00FF00" />
+        <Color color="#0000FF" />
+      </div>
+    )
+  }}
+</Playground>

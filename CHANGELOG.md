@@ -1,6 +1,2 @@
-## Latest
-#### :house: Internal
-* Balabala
-
-#### :bug: Bug Fix
-* It's not a bug! It's a FEATURE.
+## Jan 12th, 2020
+Alpha version finished
